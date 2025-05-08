@@ -18,8 +18,8 @@ from time import sleep
 # 🛠️ BOT CONFIGURATION
 # ======================
 TOKEN = '7052787265:AAHF9957hIRSGZtaENdHZAA_9Cx0iROS9k0'
-OWNER_USERNAME = "CHUTIYA AADMI"
-ADMIN_IDS = ["CHUTIYA AADMI", "𝐏 𝐀 𝐑 𝐀 𝐃 𝐎 𝐗 锋"]  # Add admin usernames here
+OWNER_USERNAME = "NEWAADMI"
+ADMIN_IDS = ["NEWAADMI", "LostBoiXD"]  # Add admin usernames here
 ALLOWED_GROUP_IDS = [-1002569945697]
 MAX_THREADS = 500
 MAX_DURATION = 150
@@ -530,7 +530,7 @@ def welcome(message):
 📅 `{current_date}` | 🕒 `{current_time}`  
 🔰 *𝗚𝗿𝗼𝘂𝗽 𝗢𝘄𝗻𝗲𝗿:* {owner_name}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-▶️ Buy special key to unlock VIP features Dm @GODxAloneBoY !
+▶️ Buy special key to unlock VIP features Dm @NEWAADMI !
 """
         markup = create_main_keyboard(message)
 
