@@ -9,6 +9,7 @@ import subprocess
 import random
 import string
 import psutil
+from __future__ import annotations
 from telebot.util import escape
 from typing import Tuple, Dict, List, Optional
 from datetime import datetime, timedelta
@@ -574,7 +575,7 @@ def is_vip(user_id: int) -> bool:
     user = next((u for u in users if u['user_id'] == user_id), None)
     return user['is_vip'] if user else False
     
-def ssh_execute(ip: str, username: str, password: str, command: str, timeout: int = 10) -> tuple[bool, str]:
+def ssh_execute(ip: str, username: str, password: str, command: str, timeout: int = 10) -> Tuple[bool, str]:
     """Execute SSH command on remote server."""
     try:
         client = paramiko.SSHClient()
