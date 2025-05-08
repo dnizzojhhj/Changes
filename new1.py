@@ -963,18 +963,6 @@ def welcome_start(message):
             reply_markup=keyboard
         )
 
-    # Rebranding message
-    bot.send_message(
-        chat_id=message.chat.id,
-        text=(
-            "↘️                                                       ↙️\n\n"
-            "*[➖ DM FOR REBRANDING ➖](https://t.me/TF_FLASH92)*\n\n"
-            "↗️                                                       ↖️"
-        ),
-        parse_mode="Markdown",
-        disable_web_page_preview=True
-    )
-
     # Show reply keyboard
     bot.send_message(
         chat_id=message.chat.id,
