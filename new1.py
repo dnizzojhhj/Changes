@@ -968,7 +968,7 @@ def welcome_start(message):
         chat_id=message.chat.id,
         text=(
             "↘️                                                       ↙️\n\n"
-            "*[➖ DM FOR REBRANDING ➖](https://t.me/TF_FLASH92)*\n\n"
+            "*[➖ DM FOR REBRANDING ➖](https://t.me/NEWAADMI)*\n\n"
             "↗️                                                       ↖️"
         ),
         parse_mode="Markdown",
