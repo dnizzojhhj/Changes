@@ -932,17 +932,17 @@ def welcome_start(message):
         f"🆔 *User ID:* `{user_id}`\n"
         f"🔐 *Status:* {status_text}{expiry_text}\n\n"
         "📢 *Join Our Official Channel:*\n"
-        "[➖ CLICK HERE TO JOIN ➖](https://t.me/FLASHxDILDOS1)\n\n"
+        "[➖ CLICK HERE TO JOIN ➖](https://t.me/NXTLVLPUBLIC)\n\n"
         "📌 *Try This Command:*\n"
         "`/bgmi` - 🚀 *Start an attack!*\n\n"
-        "👑 *BOT CREATED BY:* [@TF_FLASH92](https://t.me/TF_FLASH92)"
+        "👑 *BOT CREATED BY:* [@NEWAADMI](https://t.me/NEWAADMI)"
     )
 
     # Inline buttons
     from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
     keyboard = InlineKeyboardMarkup()
-    keyboard.add(InlineKeyboardButton("📢 JOIN CHANNEL", url="https://t.me/FLASHxDILDOS1"))
-    keyboard.add(InlineKeyboardButton("👑 CREATOR", url="https://t.me/TF_FLASH92"))
+    keyboard.add(InlineKeyboardButton("📢 JOIN CHANNEL", url="https://t.me/NXTLVLPUBLIC"))
+    keyboard.add(InlineKeyboardButton("👑 CREATOR", url="https://t.me/NEWAADMI"))
 
     # Send video or fallback to text
     video_url = get_random_video()
@@ -1016,7 +1016,7 @@ def process_stylish_broadcast(message):
         "╚════════════════════════╝\n\n"
         f"{broadcast_text}\n\n"
         "━━━━━━━━━━━━━━━━━━━━━\n"
-        "👑 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆: @LASTWISHES0"
+        "👑 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆: @NEWAADMI"
     )
 
     # 📤 Broadcast to broadcast.json users
@@ -1131,7 +1131,7 @@ def attack_command(message):
                 "║   🔐 ACCESS DENIED    ║\n"
                 "╚══════════════════════╝\n\n"
                 f"{auth['message']}\n\n"
-                "👑 Contact Admin: @LASTWISHES0"
+                "👑 Contact Admin: @NEWAADMI"
             ),
             parse_mode='Markdown'
         )
@@ -1376,7 +1376,7 @@ Send: `APNA-BHAI-0001`
 ⚠️ *Note:*
 - Keys are case-insensitive
 - Each key can only be used once
-- Contact @LASTWISHES0 for key issues
+- Contact @NEWAADMI for key issues
 """,
         reply_markup=ReplyKeyboardRemove(),
         parse_mode="Markdown"
@@ -1566,7 +1566,7 @@ def send_vip_info(message):
 Contact the Admin/Owner to buy VIP access!
 
 🆔 Admin ID: <code>6882674372, 1604629264</code>
-   Username: @LASTWISHES0, @LostBoiXD 
+   Username: @NEWAADMI, @LostBoiXD 
 """
     bot.send_message(
         message.chat.id,
@@ -3847,7 +3847,7 @@ def handle_attack_command(message):
             f"╚════════════════════════╝\n\n"
             f"🚷 *Unauthorized Access*\n"
             f"🔐 Reason: _{auth['message']}_\n\n"
-            f"👑 Contact Admin: @LASTWISHES0\n"
+            f"👑 Contact Admin: @NEWAADMI\n"
             f"📜 Get access before trying again.",
             parse_mode='Markdown',
             reply_markup=get_menu_markup(user_id)
@@ -3941,7 +3941,7 @@ def handle_attack_command(message):
             chat_id,
             f"⚠️ *SYSTEM ERROR*\n\n"
             f"Something went wrong on our side.\n"
-            f"📞 Contact support: @LASTWISHES0",
+            f"📞 Contact support: @NEWAADMI",
             parse_mode='Markdown'
         )
 
