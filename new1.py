@@ -1,3 +1,4 @@
+from __future__ import annotations
 import time
 import logging
 import json
@@ -9,7 +10,6 @@ import subprocess
 import random
 import string
 import psutil
-from __future__ import annotations
 from telebot.util import escape
 from typing import Tuple, Dict, List, Optional
 from datetime import datetime, timedelta
